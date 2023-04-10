@@ -1,0 +1,192 @@
+html
+/* Definindo as cores a serem utilizadas no site */
+:root {
+  --cor-primaria: #2c3e50;
+  --cor-secundaria: #e74c3c;
+  --cor-terciaria: #f1c40f;
+}
+
+/* Estilo do corpo do site */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /*background-color: #ecf0f1;*/
+  background-image: url("https://i.ytimg.com/vi/lwvlClH5jW4/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--cor-primaria);
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #9d00bd;
+}
+
+/* Estilo do cabeçalho */
+header {
+  
+  background-color: rgba(215, 149, 241, 0.712);
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilo do logo no cabeçalho */
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+/* Estilo da navegação no cabeçalho */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+/* nav a:hover {
+  color: var(--cor-terciaria);
+} */
+
+/* Estilo do conteúdo principal */
+main {
+  padding: 50px;
+}
+
+.rotate {
+  transition: transform 0.5s;
+}
+.rotate:hover {
+  transform: rotate(45deg);
+  box-shadow: 2px 2px 5px rgba(5, 5, 5, 0.918); 
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.644), rgba(0, 0, 255, 0.644));
+}
+
+.rotate2 {
+  transition: transform 0.5s;
+}
+.rotate2:hover {
+  transform: rotate(315deg);
+  box-shadow: 2px 2px 5px rgba(5, 5, 5, 0.918); 
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.644), rgba(0, 0, 255, 0.644));
+}
+
+
+
+
+/* Estilo do formulário */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(215, 149, 241, 0.712);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-section h2 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cadastro-section h2 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+} 
+
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="password"],
+form textarea {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.regiao{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button[type="submit"] {
+  background-color: var(--cor-secundaria);
+  color: #fff;
+  border:none;
+  border-radius: 100px;
+  padding: 2.5px 2.5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background-color: var(--cor-terciaria);
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-align {
+  text-align: left;
+}

@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("https://i.ytimg.com/vi/lwvlClH5jW4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color:rgba(215, 149, 241, 0.712);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #9d00bd;
+  }
+  
+  main {
+    margin: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color:rgba(215, 149, 241, 0.712);;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .gym-image {
+    width: 20%;
+    height:auto;
+    width: 90px;
+    margin-bottom: 10px;
+  }
+
+  
+  

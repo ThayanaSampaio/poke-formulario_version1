@@ -1,0 +1,124 @@
+html
+/* Definindo as cores a serem utilizadas no site */
+:root {
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #e74c3c;
+    --cor-terciaria: #f1c40f;
+  }
+  
+  /* Estilo do corpo do site */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.ytimg.com/vi/lwvlClH5jW4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-primaria);
+    line-height: 1.5;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    
+    color: #000000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(215, 149, 241, 0.712);
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+    color: #9d00bd;
+  }
+  
+  /* Estilo do logo no cabeçalho */
+  header h1 {
+    margin: 30;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: black;
+    
+  }
+  
+  /* Estilo da navegação no cabeçalho */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: var(--cor-terciaria);
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    padding: 150px;
+    margin: 150px;
+    background-color: rgba(215, 149, 241, 0.712);
+  }
+  
+  /* Estilo da seção "Sobre o site" */
+  #sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sobre h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #sobre p {
+    max-width: 700px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  #sobre img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
